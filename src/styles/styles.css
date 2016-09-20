@@ -41,81 +41,38 @@ a {
   text-decoration: none;
 }
 
-code {
-  font-family: 'Consolas', Courier New, Courier, monospace;
-  background: rgba(40,40,40,0.1);
-  padding: 0 0.4rem;
-}
-
-/*shared styles*/
-/*in bigger projects consider splitting it to separate files like: typography, animations, layout*/
-
-.content {
-  margin: 0 auto;
-  padding: 10rem 6.4rem;
-  max-width: 1440px;
+::selection {
+  background: rgba(255, 67, 38, 0.1);
 }
 
 .main-header {
   font-family: 'OpenSans Light', Arial, Helvetica, sans-serif;
-  font-size: 5rem;
-  letter-spacing: -0.2rem;
+  font-size: 3.4rem;
   color: #ff4326;
-  border-top: 2px solid #908e89;
-  padding-top: 1rem;
-  margin-bottom: 2.4rem;
-  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 1.4rem;
+  line-height: 1.0;
 }
 
 .main-paragraph {
   font-family: 'OpenSans Light', Arial, Helvetica, sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   color: #444;
   line-height: 1.4;
   margin: 0.8rem 0;
 }
 
 .secondary-header {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-family: 'OpenSans Book', Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
   color: #444;
   line-height: 1.2;
-  margin: 1.4rem 0;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
-  color: #444;
-  line-height: 1.4;
-  margin: 0.8rem 0;
-}
-
-.rounded-rectangle {
-  padding: 0 0.4rem;
-  border-radius: 6px;
-}
-
-.button {
-  background: rgba(40,40,40,0.05);
-  border: none;
-  font-family: 'OpenSans Bold', Arial, Helvetica, sans-serif;
-  color: #ff4326;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  line-height: 3.4rem;
-  padding: 0 2rem;
-  cursor: pointer;
-  border-radius: 6px;
+  margin: 2.4rem 0 0.8rem 0;
 }
 
 .link {
   font-family: 'OpenSans Light', Arial, Helvetica, sans-serif;
   color: #ff4326;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  display: block;
-  margin-right: 1.4rem;
 }
 
 .link:hover {

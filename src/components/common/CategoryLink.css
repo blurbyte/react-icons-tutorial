@@ -1,0 +1,30 @@
+.link {
+  display: flex;
+  border-bottom: 1px solid #dfdfde;
+}
+
+.link-active {
+  composes: link;
+  background: #f4f4f4;
+  transition: background 0.25s linear;
+}
+
+.link-active:hover {
+  background: #fff;
+}
+
+.link-active :global(.icon) {
+  transition: transform 0.25s ease-out;
+}
+
+.link-active:hover :global(.icon) {
+  transform: scale(1.1);
+}
+
+.wrapper {
+  display: flex;
+  width: 9.2rem;
+  height: 7.2rem;
+  align-items: center;
+  justify-content: center;
+}
