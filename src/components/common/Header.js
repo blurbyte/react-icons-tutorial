@@ -1,7 +1,7 @@
 import React from 'react';
 
 //components
-import {BlurbyteLogo} from './Icons';
+import BlurbyteLogo from './Logo';
 
 const styles = require('./Header.css');
 
