@@ -13,10 +13,7 @@ export default {
   debug: true,
   devtool: 'source-map',
   noInfo: true,
-  entry: [
-    'whatwg-fetch',
-    './src/index'
-  ],
+  entry: './src/index',
   target: 'web',
   output: {
     path: __dirname + '/dist',
