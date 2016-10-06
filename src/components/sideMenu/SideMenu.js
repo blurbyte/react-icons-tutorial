@@ -5,7 +5,7 @@ import HamburgerButton from './HamburgerButton';
 import CategoryLink from './CategoryLink';
 
 //icons
-import {CodeIcon, DesignIcon, IdeasIcon, ResearchIcon, ChartsIcon, DocsIcon} from './Icons';
+import {CodeIcon, DesignIcon, IdeasIcon, ResearchIcon, ChartsIcon, DocsIcon} from '../common/Icons';
 
 const styles = require('./SideMenu.css');
 

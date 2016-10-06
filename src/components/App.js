@@ -2,7 +2,7 @@ import React from 'react';
 
 //components
 import Header from './common/Header';
-import SideMenu from './common/SideMenu';
+import SideMenu from './sideMenu/SideMenu';
 import ContentPage from './content/ContentPage';
 
 const styles = require('./App.css');
