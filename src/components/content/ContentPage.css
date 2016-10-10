@@ -1,6 +1,6 @@
 .wrapper {
  width: 100%;
- /*windows height bar heder height*/
+ /*window height minus header bar height*/
  height: calc(100vh - 7.3rem);
  background: #e5e5e5;
  padding: 2.4rem;

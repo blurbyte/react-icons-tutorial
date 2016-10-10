@@ -1,5 +1,5 @@
 .wrapper {
- /*windows height bar heder height*/
+ /*window height minus header bar height*/
  height: calc(100vh - 7.3rem);
  background: #f4f4f4;
  border-right: 1px solid #908e89;
