@@ -3,7 +3,7 @@ Project files for the tutorial article found at http://blurbyte.com/articles/sma
 
 <img src="http://eloriel.azureedge.net/articles/smart-svg-icons-fold.svg" alt="Create smart SVG icons library with React" width="600">
 
-###What will you learn?
+### What will you learn?
 By reading the article and inspecting source code of demo app you can get a good grasp of:
   1. What are the advantages of using SVGs
   2. How to create and export SVGs in _Adobe Illustrator_
